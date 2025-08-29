@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.topopag{
+    top: -6%;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative;
+    
+}
+.barrasuperior {
+   position: relative;
+   right: 0;
+   left: 0;
+   margin: 0 -1px;
+   margin-top: -58px;
+   top: 6%;
+   display: flex;
+   padding-top: 8px;
+   padding-right: 8px;
+   padding-bottom: 8px;
+   padding-left: 8px;
+
+}
+.pesquisa{
+    position: relative;
+    display: inline-block; 
+}
+#txtpesquisa{
+    height: 35px;
+    width: 450px;
+    margin-left: 266px;
+    margin-top: -15px;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 50px;
+    display: block;
+    font-size: 17px;
+}
+#lupaimg{
+    position: absolute; 
+    top: 10%; 
+    left: 268px;
+    transform: translateY(-50%); 
+    background: #f7fafa;
+    padding: 5px;
+    pointer-events: none;
+}
+.btpesquisar{
+    font-size: 13px;
+    font-family: Roboto,RobotoDraft,Arial,sans-serif;
+    padding-top: 8.9px;
+    padding-bottom: 10.5px;
+    padding-left: 15px;
+    margin-top: -15px;
+    margin-bottom: 21px;
+}
+button:hover{
+    color:#464a4d;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+nav ul li{
+    background-color: rgb(221, 216, 216);
+    padding-top: 8.9px;
+    padding-bottom: 8.9px;
+    margin-top: 3px;
+    margin-left: 0px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+nav ul li a:hover{
+    background-color: pink;
+    margin-top: 3px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+table{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+table tbody tr:nth-child(even) td{
+    background-color: rgb(183, 181, 181);
+
+}
+table tbody tr:hover td{
+    background-color: #E9f1f1;
+    color: black;
+
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+    
+}
